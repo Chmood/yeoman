@@ -1,5 +1,10 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
+/* Bootstrap variables overiding */
+
+$brand-primary:         #ff8000 !default;
+$brand-success:         #aa4488 !default;
+
 @import 'sass-bootstrap/lib/bootstrap';
 
 .browsehappy {
@@ -89,3 +94,4 @@ body {
         border-bottom: 0;
     }
 }
+
