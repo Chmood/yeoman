@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/8e84585f.main.css">
+        <link rel="stylesheet" href="styles/2e1062a7.main.css">
         <script src="scripts/vendor/f7f27360.modernizr.js"></script>
     </head>
     <body>
@@ -20,23 +20,121 @@
 
 
         <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <h3 class="text-muted">yeoman</h3>
+
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Project name</a>
             </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-large btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Second slide" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
 
             <div class="jumbotron">
-                <h1>Hello world!</h1>
-                <p class="lead">Always a pleasure scaffolding your apps.</p>
+                <h1>Hello new workflow!</h1>
+                <p class="lead">Always a pleasure running after progress...</p>
                 <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
             </div>
 
-            <div class="row marketing">
-                <div class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <img src="../images/9976ad3b.test.jpg" class="respimg">
+                    <h3>Build taskforce</h3>
+                    <p class="lead"><em>Introducing modernity, goodbye headaches !</em></p>
+                    <h4>Node</h4>
+                    <p>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.</p>
+                    <p><small>Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</small></p>
+
+                    <h4>Git</h4>
+                    <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+                    <p><small>Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</small></p>
+
+                    <h4>Yeoman tools</h4>
+                    <p>Yeoman 1.0 is more than just a tool. It's a workflow; a collection of tools and best practices working in harmony to make developing for the web even better.</p>
+                    <p><small>Our workflow is comprised of three tools for improving your productivity and satisfaction when building a web app: yo (the scaffolding tool), grunt (the build tool) and bower (for package management).</small></p>
+
+                    <h4>Sublime Text</h4>
+                    <p>Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.</p>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3>Front-end magic</h3>
+                    <p class="lead"><em>Leveraging communauty wisdom...</em></p>
                     <h4>HTML5 Boilerplate</h4>
                     <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
 
@@ -46,15 +144,61 @@
                     <h4>Modernizr</h4>
                     <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
 
-
                     <h4>RequireJS</h4>
                     <p>RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node.</p>
 
                 </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3>Build taskforce</h3>
+                    <p class="lead"><em>Introducing modernity, goodbye headaches !</em></p>
+                    <h4>Node</h4>
+                    <p>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.</p>
+                    <p><small>Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</small></p>
+
+                    <h4>Git</h4>
+                    <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+                    <p><small>Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</small></p>
+
+                    <h4>Yeoman tools</h4>
+                    <p>Yeoman 1.0 is more than just a tool. It's a workflow; a collection of tools and best practices working in harmony to make developing for the web even better.</p>
+                    <p><small>Our workflow is comprised of three tools for improving your productivity and satisfaction when building a web app: yo (the scaffolding tool), grunt (the build tool) and bower (for package management).</small></p>
+
+                    <h4>Sublime Text</h4>
+                    <p>Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.</p>
+
+                </div>
             </div>
 
+            <div class="raw">
+                <div class="col-xs-4 col-sm-2">
+                    <p>20:30</p>
+                    <h4>Lorem ipsum dolor sit amet</h4>
+                </div>
+                <div class="col-xs-4 col-sm-2">
+                    <p>20:30</p>
+                    <h4>Consectetur adipisicing elit. Magni, distinctio</h4>
+                </div>
+                <div class="col-xs-4 col-sm-2">
+                    <p>20:30</p>
+                    <h4>Laborum ex libero voluptates impedit</h4>
+                </div>
+                <div class="col-xs-4 col-sm-2">
+                    <p>20:30</p>
+                    <h4>Vero tempora officia</h4>
+                </div>
+                <div class="col-xs-4 col-sm-2">
+                    <p>20:30</p>
+                    <h4>Sit eaque accusamus rem</h4>
+                </div>
+                <div class="col-xs-4 col-sm-2">
+                    <p>20:30</p>
+                    <h4>Ipsum quos?</h4>
+                </div>
+            </div>
+
+
             <div class="footer">
-                <p>♥ from the Yeoman team</p>
+                <p>All the ♥ of the universe</p>
             </div>
 
         </div>
